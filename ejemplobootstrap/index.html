@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Ejemplo plantilla bootstrap</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Estilos propios -->
+	<link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
+
+	<!-- Se usa para decirle a la plantilla que es mobilefirts-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+
+<div class="container">
+<!-- Div caja busqueda -->
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-2 
+		col-md-push-8 col-lg-push-9 cbusqueda ">
+	<input type="text" placeholder="Buscar" />
+</div>
+</div>
+<!-- Div menú -->
+<div class="row">
+<div class="col-xs-12 col-lg-10 col-lg-push-1 boxmenu">
+	<h3>Menú</h3>
+	<h4>Aquí debe ir un menú</h4>
+</div>
+</div>
+<!-- Div Slide -->
+<div class="row">
+	<div class="col-xs-12 col-lg-10 col-lg-push-1 slide">
+		<h3>Slide</h3>
+		<h4>No es obligatorio que vaya un slide aqui pero si lo agregan hay puntos extra</h4>
+	</div>	
+</div>
+
+<!-- Div contenedor 1 -->
+<div class="row cont1">
+	<!-- Div caja 1.1 -->
+	<div class="col-xs-5 col-md-3 col-lg-2 
+			col-lg-push-1 caja11">
+		<h3>Caja 1.1 </h3>
+		<h4>Hay que rellenar cada una de las cajas con texto de ejemplo y 1 etiqueta h2 para el titulo (texto centrado con la clase de bootstrap text-center) y una h4 para el texto, ver ejemplo al lado</h4>
+		<h4>Cada una de estas cajas debe tener una altura fija de 200px, se pueden guiar de como se hizo en .slide en el archivo assets/css/estilos.css</h4>
+	</div>
+	<!-- Div caja 1.2 -->
+	<div class="col-xs-5 col-md-3 col-lg-2 
+			col-xs-push-2 col-md-push-2 col-lg-push-2 caja12">
+		<h2 class="text-center">Caja 1.2 </h2>
+		<h4>Aqui va mi texto de ejemplo Aqui va mi texto de ejemplo Aqui va mi texto de ejemplo Aqui va mi texto de ejemplo</h4> 
+	</div>
+	<!-- Div caja 1.3 -->
+	<div class="col-xs-5 col-md-3 col-lg-2 
+			col-md-push-4 col-lg-push-3 caja13 ">
+		<h3>Caja 1.3 </h3>
+	</div>
+	<!-- Div caja 1.4 -->
+	<div class="col-xs-5 col-md-8 col-lg-2 
+			col-xs-push-2 col-md-push-2 col-lg-push-4 caja14 ">
+		<h3>Caja 1.4 </h3>
+	</div>
+</div>
+
+
+<!-- Div contenedor 2 -->
+<div class="row ">
+		<!-- Div caja 2.1 -->
+	<div class="col-xs-12 col-md-5 col-lg-5 
+			 	col-lg-push-1 caja21">
+		<h3>Caja 2.1 </h3>
+		<h4>Deben agregar una imagen responsive (en <a href="http://getbootstrap.com/css" target="_blank">getbootstrap.com/css</a> encuentran como hacer una imagen responsive) y abajo un boton sin funcionalidad. Esta caja y la de al lado deben tener 300px de alto</h4>
+	</div>
+	<!-- Div caja 2.2 -->
+	<div  class="col-xs-12 col-md-5 col-lg-5 
+			col-md-push-2 col-lg-push-2 caja22">
+		<h3>Caja 2.2 </h3>
+		<h4>Deben agregar una imagen (en getbootstrap.com/css encuentran como hacer una imagen responsive) y abajo un link solo texto </h4>
+		<h4>Esta caja debe desapareces en la vista de moviles, se hace con la clase: hidden-xs</h4>
+	</div>
+</div>
+
+
+<!-- Div caja 3 -->
+<div class="row">
+	<div class="col-xs-12 col-lg-10 col-lg-push-1 formulario">
+			<h3>Formulario de información</h3>
+			<h4>Aquí debe ir un formulario (en <a href="http://getbootstrap.com/css" target="_blank">getbootstrap.com/css</a> ya está) que reciba información (sin funcionalidad), que bebe tener:</h4>
+			<h4>Nombre</h4>
+			<h4>Apellidos</h4>
+			<h4>Telefono</h4>
+			<h4>E-Mail</h4>
+			<h4>Un checkbox Que diga: Acepto los terminos al lado</h4>
+			<h4>Y el boton enviar. Esta caja debe tener 300px de alto.</h4>
+
+	</div>
+</div>
+
+<div class="row">
+<!-- Div caja 4 -->
+	<div class="col-xs-10 col-lg-6 box4">
+			<h3>Aqui deben agregar una tabla con los siguientes nombres de columnas:</h3>
+			<h4>Codigo</h4>
+			<h4>Nombre</h4>
+			<h4>Telefono</h4>
+			<h4>Email</h4>
+			<h4>Y minimo 3 filas (en <a href="http://getbootstrap.com/css" target="_blank">getbootstrap.com/css</a> ya está el ejemplo), debe estar centrada esta caja y debe tener una altura de 400px.</h4>
+	</div>
+</div>
+
+<div class="row">
+<!-- Div caja 5 -->
+	<div class="col-xs- col-lg- box5">
+		<h4>Aquí pueden agregar cuaquier otra cosa, por ejemplo una lista de datos. Este es opcional</h4>
+	</div>	
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+	<div class="col-xs-12 footer ">
+		<div class="col-xs-5">
+			<h3>Aquí agregan su información o información de contacto:</h3>
+			<h4>Nombre:</h4>
+			<h4>Correo:</h4>
+			<h4>Cualquier cosa</h4>
+			<h4>Todos los derechos reservados</h4>
+		</div>
+		<div class="col-xs-5">
+			<h3>Aqui deben agregar iconos de 3 redes sociales que deben estar linkeados</h3>
+		</div>
+	</div>	
+</footer>
+
+
+
+
+
+</body>
+</html>
